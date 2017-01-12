@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		645702451E26AC9800AA7C83 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 645702441E26AC9800AA7C83 /* main.cpp */; };
+		645702551E27A37200AA7C83 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645702541E27A37200AA7C83 /* Cocoa.framework */; };
+		645702571E27A37B00AA7C83 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645702561E27A37B00AA7C83 /* QTKit.framework */; };
+		645702591E27A38700AA7C83 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645702581E27A38700AA7C83 /* CoreVideo.framework */; };
+		6457025B1E27A44900AA7C83 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6457025A1E27A44900AA7C83 /* libz.tbd */; };
+		6457025F1E27A6BB00AA7C83 /* libopencv_highgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6457025C1E27A6BB00AA7C83 /* libopencv_highgui.a */; };
+		645702601E27A6BB00AA7C83 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6457025D1E27A6BB00AA7C83 /* libopencv_imgproc.a */; };
+		645702611E27A6BB00AA7C83 /* libopencv_videoio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6457025E1E27A6BB00AA7C83 /* libopencv_videoio.a */; };
+		645702631E27A85A00AA7C83 /* libKudanCV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 645702621E27A85A00AA7C83 /* libKudanCV.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6457023F1E26AC9800AA7C83 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		645702411E26AC9800AA7C83 /* KudanCV Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "KudanCV Demo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		645702441E26AC9800AA7C83 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "KudanCV Demo/main.cpp"; sourceTree = SOURCE_ROOT; };
+		645702541E27A37200AA7C83 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		645702561E27A37B00AA7C83 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		645702581E27A38700AA7C83 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6457025A1E27A44900AA7C83 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6457025C1E27A6BB00AA7C83 /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_highgui.a; path = ../../SDK/kudancv/Libraries/OpenCV/lib/macOS/libopencv_highgui.a; sourceTree = "<group>"; };
+		6457025D1E27A6BB00AA7C83 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = ../../SDK/kudancv/Libraries/OpenCV/lib/macOS/libopencv_imgproc.a; sourceTree = "<group>"; };
+		6457025E1E27A6BB00AA7C83 /* libopencv_videoio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_videoio.a; path = ../../SDK/kudancv/Libraries/OpenCV/lib/macOS/libopencv_videoio.a; sourceTree = "<group>"; };
+		645702621E27A85A00AA7C83 /* libKudanCV.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKudanCV.a; path = "KudanCV Demo/libKudanCV.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6457023E1E26AC9800AA7C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645702631E27A85A00AA7C83 /* libKudanCV.a in Frameworks */,
+				6457025F1E27A6BB00AA7C83 /* libopencv_highgui.a in Frameworks */,
+				645702601E27A6BB00AA7C83 /* libopencv_imgproc.a in Frameworks */,
+				645702611E27A6BB00AA7C83 /* libopencv_videoio.a in Frameworks */,
+				6457025B1E27A44900AA7C83 /* libz.tbd in Frameworks */,
+				645702591E27A38700AA7C83 /* CoreVideo.framework in Frameworks */,
+				645702571E27A37B00AA7C83 /* QTKit.framework in Frameworks */,
+				645702551E27A37200AA7C83 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		645702381E26AC9800AA7C83 = {
+			isa = PBXGroup;
+			children = (
+				645702431E26AC9800AA7C83 /* KudanCV Demo */,
+				645702421E26AC9800AA7C83 /* Products */,
+				6457024B1E27A19B00AA7C83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		645702421E26AC9800AA7C83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				645702411E26AC9800AA7C83 /* KudanCV Demo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		645702431E26AC9800AA7C83 /* KudanCV Demo */ = {
+			isa = PBXGroup;
+			children = (
+				645702441E26AC9800AA7C83 /* main.cpp */,
+			);
+			path = "KudanCV Demo";
+			sourceTree = "<group>";
+		};
+		6457024B1E27A19B00AA7C83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				645702621E27A85A00AA7C83 /* libKudanCV.a */,
+				6457025C1E27A6BB00AA7C83 /* libopencv_highgui.a */,
+				6457025D1E27A6BB00AA7C83 /* libopencv_imgproc.a */,
+				6457025E1E27A6BB00AA7C83 /* libopencv_videoio.a */,
+				6457025A1E27A44900AA7C83 /* libz.tbd */,
+				645702581E27A38700AA7C83 /* CoreVideo.framework */,
+				645702561E27A37B00AA7C83 /* QTKit.framework */,
+				645702541E27A37200AA7C83 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		645702401E26AC9800AA7C83 /* KudanCV Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645702481E26AC9800AA7C83 /* Build configuration list for PBXNativeTarget "KudanCV Demo" */;
+			buildPhases = (
+				6457023D1E26AC9800AA7C83 /* Sources */,
+				6457023E1E26AC9800AA7C83 /* Frameworks */,
+				6457023F1E26AC9800AA7C83 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KudanCV Demo";
+			productName = "KudanCV Demo";
+			productReference = 645702411E26AC9800AA7C83 /* KudanCV Demo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		645702391E26AC9800AA7C83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kudan;
+				TargetAttributes = {
+					645702401E26AC9800AA7C83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6457023C1E26AC9800AA7C83 /* Build configuration list for PBXProject "KudanCV Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 645702381E26AC9800AA7C83;
+			productRefGroup = 645702421E26AC9800AA7C83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				645702401E26AC9800AA7C83 /* KudanCV Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6457023D1E26AC9800AA7C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645702451E26AC9800AA7C83 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		645702461E26AC9800AA7C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		645702471E26AC9800AA7C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		645702491E26AC9800AA7C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
+				LIBRARY_SEARCH_PATHS = "\"$(PROJECT_DIR)/KudanCV Demo\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6457024A1E26AC9800AA7C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
+				LIBRARY_SEARCH_PATHS = "\"$(PROJECT_DIR)/KudanCV Demo\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6457023C1E26AC9800AA7C83 /* Build configuration list for PBXProject "KudanCV Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645702461E26AC9800AA7C83 /* Debug */,
+				645702471E26AC9800AA7C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645702481E26AC9800AA7C83 /* Build configuration list for PBXNativeTarget "KudanCV Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645702491E26AC9800AA7C83 /* Debug */,
+				6457024A1E26AC9800AA7C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 645702391E26AC9800AA7C83 /* Project object */;
+}
