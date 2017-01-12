@@ -15,8 +15,7 @@ In this sample project, OpenCV is used for obtaining the camera feed and subsequ
 After you have been sent the KudanCV library, just drop it and the `KudanCV.h` file into the `KudanCV Demo` folder that is in the root of this repository.
 
 
-
-## Getting the tracker to run
+## Getting the sample to run
 ----
 Once your project is compiling, the next step is to ensure that it actually runs without errors.
 
@@ -26,6 +25,8 @@ Next, on line `26` you will find `kMarkerPath`.  Here you will need to assign th
 
 At this point, your project should compile and run. If the library encounters any issues it will throw an exception to let you know what is missing or possibly going wrong.
 
+#### Special note for Windows users:
+Once your project has compiled in Visual Studio, you may find that you need to copy across your OpenCV dll and the cURL library (which was in the Kudan package) into the folder which contains your compiled `.exe`. Otherwise the executable will fail to launch citing that it is missing the OpenCV and cURL libraries.
 
 
 ## Contact
